@@ -7,12 +7,13 @@ gem 'rails4_upgrade'
 
 group :production do
 	gem 'pg'
+	gem 'rails_12factor'
 end
 
 group :development do
 	gem 'sqlite3'
 	gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
-    gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+  gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 end
 
 gem 'sass-rails', '~> 4.0.0'
