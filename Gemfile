@@ -7,6 +7,8 @@ gem 'rails4_upgrade'
 
 group :production do
 	gem 'pg'
+
+	#required for bootstrap on Rails 4
 	gem 'rails_12factor'
 end
 
